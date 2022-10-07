@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: #333;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row{
+    margin: auto;
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+    background-color: #3E000C;
+}
+
+#texto{
+    margin: 60px 0 0 0;
+}
